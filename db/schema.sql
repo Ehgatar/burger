@@ -7,5 +7,6 @@ CREATE TABLE burgers
 	burger_name:(255) NOT NULL,
 	devoured BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
+	date TIMESTAMP);
 );
 
